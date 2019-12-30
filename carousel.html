@@ -12,6 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,900&display=swap" rel="stylesheet">
 
     <!-- Favicons -->
     <!-- <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -45,7 +46,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Carousel</a>
+        <a class="navbar-brand" href="#">FREE Retirement Webinar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,16 +56,16 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Form</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
-          <form class="form-inline mt-2 mt-md-0">
+<!--           <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          </form> -->
         </div>
       </nav>
     </header>
@@ -78,13 +79,49 @@
         </ol> -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img src="img/happy.jpg">
             <div class="container">
-              <div class="carousel-caption text-left">
-                <h1 class="display-4 font-italic" style="font-family: 'Playfair Display', Georgia, 'Times New Roman', serif">FREE No-Stress<br>Retirement Webinar</h1>
-                <p>Learn how to earn stock-market-like profits with no risk. Guaranteed!</p>
+              <div class="carousel-caption text-left col-lg-6">
+                <h1 style="font-family: 'Roboto';">FREE No-Stress Retirement Webinar</h1>
+                <h1 class="display-4" style="font-family: 'Roboto', Arial, sans; font-weight: bold;">Learn how to earn  stock-market-like profits with no risk. Guaranteed!</h1>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
               </div>
+              
+              <div style="background-color: white;
+                          border: 4px solid #dee2e6;
+                          border-radius:10px;  
+                          text-align: center; 
+                          position: fixed; 
+                          padding: 40px; 
+                          left: 70%; 
+                          top:106px; 
+                          z-index: 1000;
+                          height: 100%;" class="col-lg-3">
+                <h1 style="font-family: 'Roboto'; font-weight: bold;">Sign up now!</h1>
+                <form style="text-align:left">
+                  <div class="form-group">
+                    <!-- <label for="exampleInputEmail1">Full Name</label> -->
+                    <input type="tect" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name">
+                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword1">Email Address</label> -->
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword2">Phone Number</label> -->
+                    <input type="phone" class="form-control" id="exampleInputPassword2" placeholder="Phone Number">
+                  </div>
+                  <!-- <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div> -->
+                  <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+                </form>
+              </div>
+              
+
             </div>
           </div>
           <!-- <div class="carousel-item">
@@ -127,23 +164,23 @@
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
-          <div class="col-lg-4">
-            <img src="img/fiscaltimes.png" width="200" style="margin: 60px;">
-            <h4 style="font-family: 'Playfair Display', Georgia, 'Times New Roman', serif">The Retirement Revolution That Failed: Why the 401(k) Isn't Working</h4>
-            <p>TheFiscalTimes.com</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <div class="col-lg-3">
+            <img src="img/fiscaltimes.png" width="200" style="margin: 60px 20px;">
+            <h4 style="font-family: 'Roboto'; font-weight:normal">The Retirement Revolution That Failed: Why the 401(k) Isn't Working</h4>
+            <p style="font-family:'Roboto';font-weight:bold">TheFiscalTimes.com</p>
+            <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <img src="img/cnbc.png" width="100" style="margin: 40px;">
-            <h4 class="" style="font-family: 'Playfair Display', Georgia, 'Times New Roman', serif">Self-Made Millionaire: Don't Put Money in Your 401(k)</h4>
-            <p>CNBC.com</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <h4 class="" style="font-family: 'Roboto'; font-weight:normal">Self-Made Millionaire: Don't Put Money in Your 401(k)</h4>
+            <p style="font-family:'Roboto';font-weight:bold">CNBC.com</p>
+            <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <img src="img/economicpopulist.jpg" style="margin: 50px">
-            <h4 style="font-family: 'Playfair Display', Georgia, 'Times New Roman', serif">"The 401(k) will turn out to be the greatest systemic financial hoax ever perpetrated on an unsuspecting public."</h4>
-            <p>EconomicPopulist.org</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <h4 style="font-family: 'Roboto'; font-weight:normal">"The 401(k) will turn out to be the greatest systemic financial hoax ever perpetrated on an unsuspecting public."</h4>
+            <p style="font-family:'Roboto';font-weight:bold">EconomicPopulist.org</p>
+            <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -153,35 +190,41 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">We will show you <span class="text-muted">how to retire</span></h2>
-            <p class="lead">With tax-free income for life, with an account that can never lose money!</p>
+          <div class="col-md-6">
+            <h2 class="featurette-heading" style="margin-top: 0;">This 30 Minute Webinar May Provide the <span class="text-muted">Most Important Information That You Will Ever See</span> Regarding Your Financial Future!
+            <!-- <p class="lead">With tax-free income for life, with an account that can never lose money!</p> -->
           </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          <div class="col-md-3">
+            <ul style="font-family: 'Roboto';font-size: 20px;list-style-type: circle;">
+              <li>Learn how to earn stock-market-like profits without stock market risk</li>
+              <li>Learn how to create a tax-free retirement</li>
+              <li>Learn how to create an income stream to fund a retirement that you won't outlive</li>
+            </ul>
+            <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
           </div>
         </div>
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <div class="col-md-6 order-md-2">
+            <h2 class="featurette-heading" style="margin-top:0">We Will Show You How to Retire With <span class="text-muted">Tax-Free Income For Life</span> with an Account That Can Never Lose Money.</h2>
+            <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
           </div>
-          <div class="col-md-5">
+          <div class="col-md-3 order-md-1" style="display:flex;align-items:center;justify-content: center">
+            <img src="img/family.jpg" style="max-width: 100%">
+            <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-6">
+            <h2 class="featurette-heading" style="margin-top: 0">Learn How to Protect Yourself From Stock Market Fluctuations and Losses <span class="text-muted">Which Can Put Your Retirement At Risk.</span></h2>
+            <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
+          </div>
+          <div class="col-md-3">
             <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
           </div>
         </div>
