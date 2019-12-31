@@ -12,9 +12,7 @@
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-.container {
-  margin-left: 50px;
-}
+h1 { font-size: 2rem; }
 
 .bg-dark {
   background-color: #1e1d86!important;
@@ -22,7 +20,7 @@
 }
 
 .display-4 {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -47,8 +45,8 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .carousel-item .container {
@@ -107,4 +105,15 @@
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+@media (min-width: 992px) {
+  h1 { font-size: 2.5rem; }
+  .container { margin-left: 50px; }
+  #floating-panel { visibility: visible; }
+  .carousel-item > img {
+    height: auto;
+    width: 100%;
+  }
+  .display-4 { font-size: 4rem; }
 }
