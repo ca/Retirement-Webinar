@@ -43,7 +43,6 @@ h1 { font-size: 2rem; }
 }
 .carousel-item > img {
   position: absolute;
-
   bottom: 0;
   right: 0;
   width: auto;
@@ -142,6 +141,7 @@ h1 { font-size: 2rem; }
     width: 100%;
   }
   .display-4 { font-size: 4rem; }
+  .mobile-btn { display:none; }
 }
 
 @media (min-width: 768px) {
