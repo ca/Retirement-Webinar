@@ -43,7 +43,7 @@ h1 { font-size: 2rem; }
 }
 .carousel-item > img {
   position: absolute;
-  bottom: 0;
+  top: -20%;
   right: 0;
   width: auto;
   height: 100%;
@@ -113,6 +113,11 @@ h1 { font-size: 2rem; }
 }
 .form-group { text-align: left!important; }
 .form-check-inline .form-check-input { margin-right: .8rem; }
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
 
 
 /* RESPONSIVE CSS
