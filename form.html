@@ -75,26 +75,26 @@
             <div class="col-md-5">
               <div class="form-row">
                 <div class="form-group col-md-8">
-                  <label for="inputName4">Name</label>
-                  <input type="text" class="form-control" id="inputName4" placeholder="Enter First and Last Name">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter First and Last Name">
                 </div>
                 <div class="form-group col-md-4">
-                  <label for="inputBirthday">Birthday</label>
-                  <input type="text" class="form-control" id="inputBirthday" placeholder="MM/DD/YYYY">
+                  <label for="DOB">Date of Birth</label>
+                  <input type="text" class="form-control" id="DOB" placeholder="MM/DD/YYYY">
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-md-4">
-                  <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email Address">
                 </div>
                 <div class="form-group col-md-4">
-                  <label for="inputPhone">Phone</label>
-                  <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number">
+                  <label for="phone">Phone</label>
+                  <input type="text" class="form-control" id="phone" placeholder="Phone Number">
                 </div>
                 <div class="form-group col-md-4">
-                  <label for="inputState">Gender</label>
-                  <select id="inputState" class="form-control">
+                  <label for="gender">Gender</label>
+                  <select id="gender" class="form-control">
                     <option selected>Select...</option>
                     <option>MALE</option>
                     <option>FEMALE</option>
@@ -102,26 +102,22 @@
                 </div>
               </div>
               <div class="form-row">
-                <div class="form-group col-md-4">
+                <div class="form-group col-md-12">
                   <label>Do you use tobacco?</label>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                    <label class="form-check-label" for="exampleRadios1">
-                      Yes
-                    </label>
+                    <input class="form-check-input" type="radio" name="tobaccoUsage" id="tobaccoYes" value="yes">
+                    <label class="form-check-label" for="tobaccoYes">Yes</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">
-                      No
-                    </label>
+                    <input class="form-check-input" type="radio" name="tobaccoUsage" id="tobaccoNo" value="no" checked>
+                    <label class="form-check-label" for="tobaccoNo">No</label>
                   </div>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-md-12">
-                  <label for="exampleFormControlTextarea1">Please list any health conditions</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <label for="healthConditions">Please list any health conditions</label>
+                  <textarea class="form-control" id="healthConditions" rows="3"></textarea>
                 </div>
               </div>
             </div>
@@ -129,26 +125,26 @@
             <div class="col-md-5 offset-md-1">
               <div class="form-row">
                 <div class="form-group col-md-8">
-                  <label for="inputName4">Spouse Name (if applicable)</label>
-                  <input type="text" class="form-control" id="inputName4" placeholder="Enter First and Last Name">
+                  <label for="spouseName">Spouse Name (if applicable)</label>
+                  <input type="text" class="form-control" id="spouseName" placeholder="Enter First and Last Name">
                 </div>
                 <div class="form-group col-md-4">
-                  <label for="inputBirthday">Birthday</label>
-                  <input type="text" class="form-control" id="inputBirthday" placeholder="MM/DD/YYYY">
+                  <label for="spouseDOB">Date of Birth</label>
+                  <input type="text" class="form-control" id="spouseDOB" placeholder="MM/DD/YYYY">
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-md-4">
-                  <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address">
+                  <label for="spouseEmail">Email</label>
+                  <input type="email" class="form-control" id="spouseEmail" placeholder="Email Address">
                 </div>
                 <div class="form-group col-md-4">
-                  <label for="inputPhone">Phone</label>
-                  <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number">
+                  <label for="spousePhone">Phone</label>
+                  <input type="text" class="form-control" id="spousePhone" placeholder="Phone Number">
                 </div>
                 <div class="form-group col-md-4">
-                  <label for="inputState">Gender</label>
-                  <select id="inputState" class="form-control">
+                  <label for="spouseGender">Gender</label>
+                  <select id="spouseGender" class="form-control">
                     <option selected>Select...</option>
                     <option>MALE</option>
                     <option>FEMALE</option>
@@ -156,17 +152,17 @@
                 </div>
               </div>
               <div class="form-row">
-                <div class="form-group col-md-4">
-                  <label>Do you use tobacco?</label>
+                <div class="form-group col-md-12">
+                  <label>Does your spouse use tobacco?</label>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                    <label class="form-check-label" for="exampleRadios1">
+                    <input class="form-check-input" type="radio" name="spouseTobaccoUsage" id="spouseTobaccoYes" value="yes">
+                    <label class="form-check-label" for="spouseTobaccoYes">
                       Yes
                     </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">
+                    <input class="form-check-input" type="radio" name="spouseTobaccoUsage" id="spouseTobaccoNo" value="no" checked>
+                    <label class="form-check-label" for="spouseTobaccoNo">
                       No
                     </label>
                   </div>
@@ -174,22 +170,23 @@
               </div>
               <div class="form-row">
                 <div class="form-group col-md-12">
-                  <label for="exampleFormControlTextarea1">Please list any health conditions</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <label for="spouseHealthConditions">Please list any health conditions</label>
+                  <textarea class="form-control" id="spouseHealthConditions" rows="3"></textarea>
                 </div>
               </div>
             </div>
           </div>
-          
+
           <br><br>
 
           <div class="form-row">
             <div class="form-group col-md-4">
-              <label for="inputMaritalStatus">Marital Status</label>
-              <select id="inputMaritalStatus" class="form-control">
+              <label for="inputBestTime">Best Time to Call</label>
+              <select id="inputBestTime" class="form-control">
                 <option selected>Select...</option>
-                <option>SINGLE</option>
-                <option>MARRIED</option>
+                <option>MORNING</option>
+                <option>AFTERNOON</option>
+                <option>EVENING</option>
               </select>
             </div>
             <div class="form-group col-md-4">
@@ -293,41 +290,20 @@
           <div class="form-row checkgroup">
             <div class="form-group col-lg-2">
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">401(k)</label>
+                <input class="form-check-input" type="checkbox" id="401k" value="401k">
+                <label class="form-check-label" for="401k">401(k)</label>
               </div>
             </div>
             <div class="form-group col-lg-2">
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Roth</label>
+                <input class="form-check-input" type="checkbox" id="roth" value="roth">
+                <label class="form-check-label" for="roth">Roth</label>
               </div>
             </div>
             <div class="form-group col-lg-2">
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">IRA</label>
-              </div>
-            </div>
-          </div>
-
-          <div class="form-row checkgroup">
-            <div class="form-group col-lg-2">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">CD</label>
-              </div>
-            </div>
-            <div class="form-group col-lg-2">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Stocks</label>
-              </div>
-            </div>
-            <div class="form-group col-lg-2">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Bonds</label>
+                <input class="form-check-input" type="checkbox" id="ira" value="ira">
+                <label class="form-check-label" for="ira">IRA</label>
               </div>
             </div>
           </div>
@@ -335,20 +311,41 @@
           <div class="form-row checkgroup">
             <div class="form-group col-lg-2">
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">Mutual Funds</label>
+                <input class="form-check-input" type="checkbox" id="cd" value="cd">
+                <label class="form-check-label" for="cd">CD</label>
               </div>
             </div>
             <div class="form-group col-lg-2">
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Annuities</label>
+                <input class="form-check-input" type="checkbox" id="stocks" value="stocks">
+                <label class="form-check-label" for="stocks">Stocks</label>
               </div>
             </div>
             <div class="form-group col-lg-2">
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Other</label>
+                <input class="form-check-input" type="checkbox" id="bonds" value="bonds">
+                <label class="form-check-label" for="bonds">Bonds</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row checkgroup">
+            <div class="form-group col-lg-2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="mutualFunds" value="mutual funds">
+                <label class="form-check-label" for="mutualFunds">Mutual Funds</label>
+              </div>
+            </div>
+            <div class="form-group col-lg-2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="annuities" value="annuities">
+                <label class="form-check-label" for="annuities">Annuities</label>
+              </div>
+            </div>
+            <div class="form-group col-lg-2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="other" value="other">
+                <label class="form-check-label" for="other">Other</label>
               </div>
             </div>
           </div>
@@ -356,30 +353,26 @@
           <div class="form-group">
             <label>Do you feel that you are saving enough for retirement?</label>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-                Yes
-              </label>
+              <input class="form-check-input" type="radio" name="savingEnough" id="savingEnoughYes" value="yes" checked>
+              <label class="form-check-label" for="savingEnoughYes">Yes</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-              <label class="form-check-label" for="exampleRadios2">
-                No
-              </label>
+              <input class="form-check-input" type="radio" name="savingEnough" id="savingEnoughNo" value="no">
+              <label class="form-check-label" for="savingEnoughNo">No</label>
             </div>
           </div>
 
           <div class="form-group">
             <label>Are you concerned that you may outlive your savings?</label>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
+              <input class="form-check-input" type="radio" name="outliveSavings" id="outliveYes" value="yes" checked>
+              <label class="form-check-label" for="outliveSavings">
                 Yes
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-              <label class="form-check-label" for="exampleRadios2">
+              <input class="form-check-input" type="radio" name="outliveSavings" id="outliveNo" value="no">
+              <label class="form-check-label" for="outliveSavings">
                 No
               </label>
             </div>
@@ -388,16 +381,12 @@
           <div class="form-group">
             <label>Are you going to provide some or all of your child's college funding?</label>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-                Yes
-              </label>
+              <input class="form-check-input" type="radio" name="collegeFund" id="collegeFundYes" value="yes" checked>
+              <label class="form-check-label" for="collegeFundYes">Yes</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-              <label class="form-check-label" for="exampleRadios2">
-                No
-              </label>
+              <input class="form-check-input" type="radio" name="collegeFund" id="collegeFundNo" value="no">
+              <label class="form-check-label" for="collegeFundNo">No</label>
             </div>
           </div>
 
