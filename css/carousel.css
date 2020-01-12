@@ -41,6 +41,7 @@ h1 { font-size: 2rem; }
 .carousel-item {
   height: 38rem;
 }
+.carousel-item.mobile > img { width: 100%!important; }
 .carousel-item > img {
   position: absolute;
   top: -20%;
