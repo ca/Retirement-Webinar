@@ -52,7 +52,7 @@ h1 { font-size: 2rem; }
 .carousel-item.mobile > img { width: 100%!important; }
 .carousel-item > img {
   position: absolute;
-  top: -20%;
+  top: 0;
   right: 0;
   width: auto;
   height: 100%;
@@ -166,8 +166,13 @@ body {
   .container { margin-left: 40px; }
   .container.info_page { margin-left: auto; }
   .carousel-item > img {
+    top: -20%;
     height: auto;
     width: 100%;
+  }
+  .carousel-caption {
+    right: 15%!important;
+    left: 15%!important;
   }
   .display-4 { font-size: 4rem; }
   .mobile-btn { display:none; }
