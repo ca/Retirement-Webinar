@@ -157,6 +157,7 @@ body {
 @media (min-width: 992px) {
   .navbar-brand img { height: 50px; }
   h1 { font-size: 2.5rem; }
+  #mobile-email { font-size: 2rem; }
   #youtube {
     height: 315px;
     width: 560px;
